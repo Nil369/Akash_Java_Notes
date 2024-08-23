@@ -29,8 +29,7 @@ public class problem1 {
         int result = (v * v - u * u) / (2 * aValue * s);
         System.out.println("The result of (v^2 - u^2) / (2 * a * s) is: " + result);
 
-        // Problem 5: Find the value of 'a'
-        int x = 7;
+        // Problem 5: Find the value of 'y'
         int y = 7 * 49 / 7 + 35 / 7;
         System.out.println("The value of 'a' is: " + y);
     }

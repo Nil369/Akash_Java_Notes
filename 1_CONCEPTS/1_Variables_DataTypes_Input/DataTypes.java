@@ -1,5 +1,6 @@
 public class DataTypes {
-    
+
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         byte age = 34;
         int age2 = 56;

@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class problem2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
+
         // Q1: Sum three numbers
         System.out.println("Q1: Sum of Three Numbers");
         System.out.print("Enter the first number: ");
@@ -51,6 +51,8 @@ public class problem2 {
         System.out.println("\nQ5: Detect whether input is an integer");
         System.out.println("Enter your number");
         System.out.println(sc.hasNextInt());
+
+        sc.close();
 
     }
 }

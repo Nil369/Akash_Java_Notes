@@ -10,9 +10,10 @@ public class _1_strings {
         System.out.printf("The value of a is %d and value of b is %.2f", a, b);
         // System.out.format("The value of a is %d and value of b is %f", a, b);
         Scanner sc = new Scanner(System.in);
-//        String st = sc.next();
-//        String st = sc.nextLine();
-//        System.out.println(st);
+        // String st = sc.next();
+        // String st = sc.nextLine();
+        // System.out.println(st);
+        sc.close();
 
     }
 }

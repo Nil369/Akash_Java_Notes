@@ -1,4 +1,5 @@
 public class _3_Increament_Decrement {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         /* byte x = 5;
         int y = 6;

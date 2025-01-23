@@ -1,7 +1,7 @@
-// the if-else statement is used to execute a block of code among 
+// the if-else statement is used to execute a block of code among
 // two or more alternatives based on a condition. The basic syntax is as follows:
 
-/* 
+/*
 
 if (condition) {
     // code to be executed if condition is true
@@ -25,5 +25,7 @@ public class IfElse {
         } else {
             System.out.println("The number is zero.");
         }
+
+        sc.close();
     }
 }

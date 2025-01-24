@@ -33,6 +33,7 @@ Question 9: Repeat problem 2 using for loop.
 import java.util.Scanner;
 
 public class Practice {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -126,5 +127,7 @@ public class Practice {
             }
         }
         System.out.println("Sum of first " + n + " even numbers: " + sum);
+
+        scanner.close();
     }
 }

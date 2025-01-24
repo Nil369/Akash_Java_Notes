@@ -1,7 +1,3 @@
-Your README is already structured well and looks great! Here's a slightly refined version for better clarity, formatting, and link consistency:
-
----
-
 # 📘 Java Notes by Akash Halder  
 
 Welcome to **Java Notes**, a comprehensive resource that I'm building to help you master Java concepts, crack DSA problems, and build awesome projects. This repository is designed to provide crisp, summarised notes alongside practical insights for developers and learners alike.

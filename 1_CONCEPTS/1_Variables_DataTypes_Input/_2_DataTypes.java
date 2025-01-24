@@ -1,4 +1,4 @@
-public class DataTypes {
+public class _2_DataTypes {
 
     @SuppressWarnings("unused")
     public static void main(String[] args) {

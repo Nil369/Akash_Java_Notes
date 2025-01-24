@@ -1,6 +1,5 @@
 public class problem1 {
 
-    @SuppressWarnings("unused") 
     public static void main(String[] args) {
 
         // Problem 1: Calculate the result of the expression

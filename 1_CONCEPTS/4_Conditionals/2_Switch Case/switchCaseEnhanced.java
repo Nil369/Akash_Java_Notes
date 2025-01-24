@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class switchCaseEnhanced {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -28,5 +29,7 @@ public class switchCaseEnhanced {
             }
             default -> System.out.println("Invalid operator!");
         }
+
+        scanner.close();
     }
 }

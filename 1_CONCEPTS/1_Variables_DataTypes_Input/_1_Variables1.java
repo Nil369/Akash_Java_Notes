@@ -1,4 +1,4 @@
-public class Variables1 {
+public class _1_Variables1 {
 
     public static void main(String[] args) {
         int num1 = 7;

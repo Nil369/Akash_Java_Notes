@@ -1,23 +1,23 @@
+
 public class logicalOperator {
+
     public static void main(String[] args) {
         System.out.println("======== Logical AND ==========");
         boolean a = true;
         boolean b = false;
-       if (a && b){
-           System.out.println("Y");
-       }
-       else{
-           System.out.println("N");
-       }
+        if (a && b) {
+            System.out.println("Y");
+        } else {
+            System.out.println("N");
+        }
 
         System.out.println("======== Logical OR ==========");
 
-       if (a || b){
-           System.out.println("Y");
-       }
-       else{
-           System.out.println("N");
-       }
+        if (a || b) {
+            System.out.println("Y");
+        } else {
+            System.out.println("N");
+        }
 
         System.out.println("======== Logical NOT ==========");
         System.out.print("Not(a) is ");

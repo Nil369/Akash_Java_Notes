@@ -7,6 +7,7 @@ Q5.Write a Java program to detect whether a number entered by the user is an int
 */
 import java.util.Scanner;
 public class problem2 {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

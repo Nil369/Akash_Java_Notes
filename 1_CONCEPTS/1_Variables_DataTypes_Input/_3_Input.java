@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
-public class Input {
+public class _3_Input {
 
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
 
         System.out.print("Enter your name: ");

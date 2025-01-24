@@ -1,7 +1,8 @@
 
 import java.util.Scanner;
 public class switchCase1 {
-    
+
+    @SuppressWarnings("ConvertToTryWithResources")    
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -34,6 +35,7 @@ public class switchCase1 {
                 System.out.println("Invalid day of the week");
                 break;
         }
+        sc.close();
     }
 }
                 

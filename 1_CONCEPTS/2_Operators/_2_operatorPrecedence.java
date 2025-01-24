@@ -1,7 +1,7 @@
 public class _2_operatorPrecedence {
 
     public static void main(String[] args) {
-      
+    
         // Precedence & Associativity
 
         //int a = 6*5-34/2;

@@ -6,6 +6,7 @@
 import java.util.Scanner;
 
 public class problem1 {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         System.out.println("Percentage Calculator");
         Scanner sc = new Scanner(System.in);
@@ -25,7 +26,7 @@ public class problem1 {
         System.out.print("Enter your marks in subject 5 = ");
         e = sc.nextInt();
         
-       
+    
         int totalMarks = a + b + c + d + e;
         float percentage = (totalMarks / 500.0f) * 100;
         System.out.println("Your percentage is = " + percentage);

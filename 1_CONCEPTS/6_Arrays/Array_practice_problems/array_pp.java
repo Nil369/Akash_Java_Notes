@@ -115,7 +115,7 @@ public class array_pp {
         // SOLUTION 7: Write a Java program to find the minimum element in an array.
         int [] Arr = {1, 2100, 3, 455, 5, 34, 67};
         int min = Integer.MAX_VALUE;
-        for(int e: array){
+        for(int e: Arr){
             if(e<min){
                 min = e;
             }

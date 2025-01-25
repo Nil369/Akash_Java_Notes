@@ -32,7 +32,7 @@ Question 6:Write a program to find out the type of website from the URL:
 import java.util.Random;
 import java.util.Scanner;
 
-public class PracticeProblems {
+public class _4_pp{
 
     @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {

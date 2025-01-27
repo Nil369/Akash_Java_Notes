@@ -1,4 +1,5 @@
-# OOP Basics
+# <h1 style="color:tomato; font-weight:700; text-align:center;">OOP Basics</h1>
+
 - Object-Oriented Programming (OOP) tries to **map code instructions with real-world**, making the code short and easier to understand.
   
 - With the help of OOPs, we try to **implement real-world entities such as object, inheritance, abstraction**, etc.
@@ -14,16 +15,16 @@
 - Objects inherit methods and variables from the class.
 - It is a logical component.
   
-    <img src="https://cwh-full-next-space.fra1.digitaloceanspaces.com/videos/java-tutorials-for-beginners-36/Oops1.png"  style="width:500px;border-radius:20px" alt="class_img">
+    <img src="img/Oops1.png"  style="width:500px;border-radius:20px" alt="class_img">
 
 <br>
 
-2. ***`Objects`***: 
+1. ***`Objects`***: 
 - These are **instances of Classes**. It means they are entities made from the class.
 - Every object has some address, and it occupies some space in the memory.
 - It is a physical entity.
 
-    <img src="https://cwh-full-next-space.fra1.digitaloceanspaces.com/videos/java-tutorials-for-beginners-36/Oops2.jfif" style="width:500px; border-radius:30px"  alt="obj_img">
+    <img src="img/Oops2.jfif" style="width:500px; border-radius:30px"  alt="obj_img">
 
 ### ***`How to model a problem in OOPs???`***
 
@@ -139,7 +140,7 @@
         ```
 
 
-1. ***`Access Modifiers`***:
+2. ***`Access Modifiers`***:
 Access Modifiers specify where a property/method is accessible. There are four types of access modifiers in java :
 
 * private
@@ -171,3 +172,20 @@ public  class Demo {
 
     }
 }
+```
+
+
+## 4. Abstract Classes v/s Interfaces:
+| Feature | Abstract Class | Interface |
+|---|---|---|
+| Methods | Can contain both abstract and non-abstract methods | Can only contain abstract methods (implicitly abstract) |
+| Declaration | `abstract` keyword is used | `interface` keyword is used |
+| Implementation | Sub-class extends the abstract class using `extends` keyword | Sub-class implements the interface using `implements` keyword |
+| Members | Can have class members like private, protected, etc. | Members are public by default |
+| Multiple Inheritance | Doesn't support multiple inheritance | Supports multiple inheritance |
+
+- ***Polymorphism in Interface***:\
+  <img src="img/base64.webp" style="width:500px; border-radius:30px"  alt="poly_img">
+
+🔸**GPS g**         =    new Smartphone ( );  can only use GPS method\
+🔸**Smartphones**    =    new Smartphone ( );   can only use smartphone methods

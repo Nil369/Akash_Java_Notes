@@ -8,6 +8,7 @@
 -> We can easily override a default method like any other method of an interface.
 */
 
+package _4_Abstraction_Interfaces__Polymorphism;
 
 @SuppressWarnings("all")
 interface MyCamera{

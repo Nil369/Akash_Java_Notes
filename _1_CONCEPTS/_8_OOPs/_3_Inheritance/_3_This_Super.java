@@ -11,7 +11,7 @@
 -> It can be used to refer immediate parent class instance variable.
 -> It can be used to invoke the parent class method.
 */
-
+package _3_Inheritance;
 class Vehicle {
     String brand;
     int speed;

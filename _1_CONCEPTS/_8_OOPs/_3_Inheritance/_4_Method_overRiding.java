@@ -5,6 +5,9 @@
 -> The subclass can override the method of the parent class only when the method is not declared as final.
 -> The method in the child class must have the same name, return type, and parameters as the method in the parent class.
 */
+
+package _3_Inheritance;
+
 class MyVehicle {
     String brand;
     int speed;

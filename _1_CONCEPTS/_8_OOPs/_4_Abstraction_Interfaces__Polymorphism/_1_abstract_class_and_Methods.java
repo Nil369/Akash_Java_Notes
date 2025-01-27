@@ -17,7 +17,9 @@
 -> In the above example, on() is the abstract method.
 */
 
- @SuppressWarnings("unused")
+package _4_Abstraction_Interfaces__Polymorphism;
+
+@SuppressWarnings("unused")
 abstract class Parent2{
     public Parent2(){
         System.out.println("I'm Parent 2's Constructor");

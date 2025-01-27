@@ -12,6 +12,7 @@
 
 */
 
+package _4_Abstraction_Interfaces__Polymorphism;
 interface Bicycle{
     int a = 69;
     void applyBrake(int decrement);

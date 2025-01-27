@@ -1,6 +1,8 @@
 //GPS g          =    new Smartphone ( );  can only use GPS method
 //Smartphones    =    new Smartphone ( );   can only use smartphone methods
 
+package _4_Abstraction_Interfaces__Polymorphism;
+
 @SuppressWarnings("unused")
 interface MyCamera2{
     void takeSnap();

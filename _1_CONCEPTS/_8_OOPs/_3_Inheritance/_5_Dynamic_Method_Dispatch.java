@@ -18,6 +18,8 @@ dynamic method dispatch is based on upcasting.
 obj is pointing towards the object of class SmartPhone().
 */
 
+package _3_Inheritance;
+
 class Phone{
     public void showTime(){
         System.out.println("Time is 8 am");

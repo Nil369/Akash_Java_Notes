@@ -1,3 +1,5 @@
+package _3_Inheritance;
+
 class Base1 {
 
     Base1() {
